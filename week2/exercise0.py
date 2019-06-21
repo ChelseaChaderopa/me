@@ -100,7 +100,7 @@ def shout_with_a_number(a_string, a_number):
 
 
 def minitest(f, args, expected):
-    """Run a function with a list of args and print a response.
+    """Run a function with a list of args and print a response..
 
     This is a helper. Don't edit it.
     """
