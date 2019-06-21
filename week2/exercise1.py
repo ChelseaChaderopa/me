@@ -12,17 +12,17 @@ import platform
 print("hello! Let's get started")  # it printed "hello! Let's get started"
 
 some_words = ['what', 'does', 'this', 'line', 'do', '?']
-
+# i think this will print all the words in the brackets
 for word in some_words:
-    print(word)
-
+    print(word) # it printed all the words
+# I dont think it will print anything?
 for x in some_words:
-    print(x)
+    print(x) #it repeated the words in the list
+# I think it will re print the list
+print(some_words) #it reprinted the list
 
-print(some_words)
-
-if len(some_words) > 3:
-    print('some_words contains more than 3 words')
+if len(some_words) > 3: #I think it will print 'some_words contains more than 3 words'
+    print('some_words contains more than 3 words') #It printed the statement 
 
 def usefulFunction():
     """
