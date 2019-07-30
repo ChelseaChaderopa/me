@@ -51,7 +51,10 @@ def loops_1c(number_of_items=5, symbol="#"):
     string with exacly one symbol in it.
     E.g.: ['#', '#', '#', '#', '#']
     """
-    return
+    items = []
+    for i in range(5):
+        item.append("#")
+    return items
 
 def loops_2():
     """Make a big square starfield.
@@ -133,7 +136,6 @@ def loops_4():
         for j in range(10):
             number_row.append(j)
         number_square.append(number_row)
-
     return number_square
 
 
@@ -190,7 +192,13 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    return None
+    list1 = []
+    for a in range(10):
+        list2 = []
+        for b in range(a+1):
+            list2.append(str(b))
+        list1.append(list2)
+    return list1
 
 
 def loops_7():
@@ -214,7 +222,19 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    return None
+    def loops_7():
+        columns = []
+        for x in range(5):
+            rows = []
+            for y in range(9):
+                if abs(y-4) <= x:
+                    rows.append('*')
+                else:
+                    rows.append(' ')
+                    columns.append(rows)
+
+    print(columns)
+    return columns
 
 
 def lp(some_kind_of_list, exercise_name):
