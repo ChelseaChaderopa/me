@@ -67,11 +67,9 @@ def not_number_rejector(message):
             input_number= int(raw_input(message))
             print("Thanks! {} Looks good.".format(input_number))
             return input_number
+            
 
-
-
-
-def super_asker(low, high):
+def super_asker (low, high):
     """Robust asking function.
 
     Combine what you learnt from stubborn_asker and not_number_rejector
