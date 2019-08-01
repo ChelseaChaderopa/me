@@ -4,4 +4,4 @@ exercise 3 was confusing and still mostly unclear, including where and when to u
 The star questions took a while to figure out and im still a little confused about how to approach future questions like these
 
 append means "add to"
-e.g star_list.append(*) = star_list including *
+e.g star_list.append(*) = star_list including * .
