@@ -21,7 +21,7 @@ for x in some_words:
 # I think it will re print the list
 print(some_words) #it reprinted the list
 
-if len(some_words) > 3: #I think it will print 'some_words contains more than 3 words'
+if len(some_words) > 3: #I think it will print 'some_words contains more than 3 words
     print('some_words contains more than 3 words') #It printed the statement 
 
 def usefulFunction():
