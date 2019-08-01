@@ -112,7 +112,7 @@ def loops_3():
 
 
 def loops_4():
-    """Make a block of numbers that rises left to right.
+    """Make a block of numbers that rises left to right..
 
     Return this:
     [
