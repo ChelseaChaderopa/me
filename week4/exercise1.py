@@ -31,7 +31,7 @@ def get_some_details():
          data["results"][0]["name"]["title"]
          Look out for the type of brackets. [] means list and {} means
          dictionary, you'll need integer indeces for lists, and named keys for
-         dictionaries.
+         dictionaries
     """
     json_data = open(LOCAL + "/lazyduck.json").read()
 
