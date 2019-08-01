@@ -16,17 +16,17 @@ def binary_search(low, high, actual_number):
     Each guess, print what the guess is. Then when you find the number return
     the number of guesses it took to get there and the actual number
     as a dictionary. make sure that it has exactly these keys:
-    {"guess": guess, "tries": tries}
+    {"guess": guess, "tries": tries}.
     
     This will be quite hard, especially hard if you don't have a good diagram!
     
     Use the VS Code debugging tools a lot here. It'll make understanding 
     things much easier.
     """
-    tries = 0
+    tries = 1
     guess = 0
     return {"guess": guess, "tries": tries}
-
+ 
 
 if __name__ == "__main__":
     print(binary_search(1, 100, 5))
